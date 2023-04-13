@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/***************** topbar *************************/
+
+.topbar {
+    height: 47px;
+    width: 100%;
+    background-color: #000;
+}
+
+.topbar-left {
+    margin-left: 60px;
+    float: left;
+}
+
+.topbar-left i {
+    color: #fff;
+    font-size: 21px;
+    line-height: 47px;
+    color: #9f9b98;
+    margin-right: 12px;
+}
+
+.topbar-left i:hover {
+    color: rgb(226, 195, 19);
+}
+
+.topbar-right {
+    float: right;
+    margin-right: 60px;
+    line-height: 47px;
+}
+
+.search-input {
+    height: 24px;
+    background-color: #353334;
+    border: none;
+}
+
+.search-button {
+    color: #fff;
+    margin-left: -20px;
+    line-height: 47px;
+}
+
+.search-button i {
+    font-size: 14px;
+    line-height: 47px;
+}
+
+.search-button i:hover {
+    color: rgb(241, 12, 165)
+}
+
+
+/***************** container *************************/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-area {
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+}
+
+.logo-area h1 {
+    font-size: 84px;
+}
+
+
+/***************** navbar *************************/
+
+.nav-list {
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a,
+.nav-list li a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #81807e;
+    font-size: 18px;
+}
+
+.nav-list li a:hover {
+    color: rgb(12, 104, 141)
+}
+
+.navbar {
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+}
+
+
+/***************** banner *************************/
+
+.banner {
+    margin: 0 auto;
+    margin: 20px auto 25px auto;
+}
+
+.banner-inner {
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    margin: 0 100px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.banner-inner .text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 4, 4);
+    position: absolute;
+    top: 30px;
+}
+
+
+/***************** services *************************/
+
+.headline {
+    padding: 30px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.headline h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.headline p {
+    line-height: 1.2;
+    text-align: center;
+    font-size: 16px;
+}
+
+.box {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.image {
+    width: 20%;
+    float: left;
+}
+
+.box-text {
+    width: 80%;
+    float: right;
+}
+
+.image img {
+    width: 100%;
+}
+
+.box-text p {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+/***************** customer-reviews *************************/
+.reviews{
+    text-align: center;
+    margin-bottom: 25px;
+   
+}
+.reviews h4{
+    font-size: 30px;
+}

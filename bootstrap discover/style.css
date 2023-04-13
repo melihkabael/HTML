@@ -1,0 +1,40 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.topbar {
+    color: black;
+}
+
+.topbar .row .col button {
+    background-color: black;
+    color: white;
+}
+
+.picbar img {
+    height: 350px;
+    width: 500px;
+}
+
+.picbar {
+    margin-top: 50px;
+}
+
+.main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cardbox {
+    margin-top: 100px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(25, 118, 189);
+    height: 300px;
+    padding-top: 50px;
+    color: white;
+    margin-top: 20px;
+}
